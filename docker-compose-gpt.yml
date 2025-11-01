@@ -14,6 +14,8 @@ services:
     environment:
       - UVICORN_WORKERS=2
       - GIT_PYTHON_REFRESH=quiet
+    volumes:
+      - ./202515-MISW4411-Backend-Grupo20/apikey.json:/app/apikey.json:ro
     expose:
       - "8000"
     networks:
