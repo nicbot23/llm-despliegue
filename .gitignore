@@ -1,0 +1,18 @@
+# Archivos de documentación de despliegue (no parte del proyecto original)
+README_DESPLIEGUE.md
+CAMBIOS_GITHUB.md
+COMANDOS_RAPIDOS.md
+PASOS_VISUALES_GCP.md
+GUIA_SUBIR_A_GCP.md
+DESPLIEGUE_GCP.md
+RESUMEN_DESPLIEGUE.md
+COMPARACION_ARCHIVOS.md
+MEJORAS_FRONTEND_DOCKERFILE.md
+
+# Scripts de despliegue
+deploy-gcp.sh
+
+# Configuraciones alternativas
+docker-compose.yml
+nginx/default.conf
+
