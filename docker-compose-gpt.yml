@@ -11,6 +11,7 @@ services:
     image: misw4411-backend:latest
     environment:
       - UVICORN_WORKERS=2
+      - GIT_PYTHON_REFRESH=quiet
     expose:
       - "8000"
     networks:
