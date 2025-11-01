@@ -1,4 +1,4 @@
-# Repositorios clonados (se clonan durante el despliegue)
+# Repositorio del backend (se clona durante el despliegue)
 202515-MISW4411-Backend-Grupo20/
 
 # Archivos de documentación de despliegue (no parte del proyecto original)
@@ -19,3 +19,6 @@ deploy-gcp.sh
 docker-compose.yml
 nginx/default.conf
 
+# Node modules del frontend (muy pesado)
+MISW4411-Frontend-Template/node_modules/
+MISW4411-Frontend-Template/.DS_Store
