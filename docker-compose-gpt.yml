@@ -9,6 +9,8 @@ services:
     build:
       context: ./202515-MISW4411-Backend-Grupo20
     image: misw4411-backend:latest
+    env_file:
+      - ./202515-MISW4411-Backend-Grupo20/.env
     environment:
       - UVICORN_WORKERS=2
       - GIT_PYTHON_REFRESH=quiet
