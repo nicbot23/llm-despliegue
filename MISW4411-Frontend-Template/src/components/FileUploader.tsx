@@ -26,10 +26,10 @@ type ChunkingStrategy = "recursive_character" | "fixed_size" | "semantic" | "doc
  * - Validación de entrada y notificaciones en tiempo real
  * - Polling automático para verificar estado del procesamiento
  * 
- * @param baseUrl - URL base del backend (por defecto: http://localhost:8000)
+ * @param baseUrl - URL base del backend (por defecto: usa proxy relativo)
  * @returns JSX.Element
  */
-export default function URLUploader({ baseUrl = "http://localhost:8000" }: URLUploaderProps) {
+export default function URLUploader({ baseUrl = "" }: URLUploaderProps) {
   const { addNotification, updateNotification } = useNotifications();
   
   // Referencias para mantener valores actualizados en el polling
